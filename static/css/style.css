@@ -648,6 +648,18 @@ p {
     color: #000000;
 }
 
+.link_top {
+    color:#FFFFFF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link_top:hover {
+
+    color: #000000;
+}
+
+
 /*
 .card.hovercard .cardheader {
     background: url("http://lorempixel.com/850/280/nature/4/"); 
