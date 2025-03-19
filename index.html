@@ -11,7 +11,7 @@
 <link href="static/css/style.css" rel="stylesheet" type="text/css"> 
 <link href="static/css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="static/css/animate.css" rel="stylesheet" type="text/css">
-<script src="static/js/three.min.js"></script>
+<script defer src="static/js/three.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172907188-1"></script>
@@ -77,10 +77,11 @@ var THREE=THREE||{REVISION:"56"} -->
             <div class="bottom">
                     <!-- <div class="underline"></div>              -->
                 <ul class="social_links">
-                    <li class="linkedin animated bounceIn wow delay-02s animated" style="visibility: visible; animation-name: bounceIn;"><a href="https://linkedin.com/in/brian-formento-45757a66 "><i class="fa fa-linkedin"></i></a></li>
-                    <li class="github animated bounceIn wow delay-03s animated" style="visibility: visible; animation-name: bounceIn;"><a href="https://github.com/aniloid2"><i class="fa fa-github"></i></a></li>
-                    <li class="file-text animated bounceIn wow delay-04s animated" style="visibility: visible; animation-name: bounceIn;"><a href="static/Brian_Formento_CV.pdf" target="_blank" ><i class="fa fa-file-text"></i></a></li>
-                    <li class="envelope animated bounceIn wow delay-05s animated" style="visibility: visible; animation-name: bounceIn;"><a href="mailto:brianformento@hotmail.com"><i class="fa fa-envelope"></i></a></li> 
+                    <li class="linkedin animated bounceIn wow delay-02s animated" style="visibility: visible; animation-name: bounceIn;" loading="lazy"><a href="https://linkedin.com/in/brian-formento-45757a66 "><i class="fa fa-linkedin"></i></a></li>
+                    <li class="github animated bounceIn wow delay-03s animated" style="visibility: visible; animation-name: bounceIn;" loading="lazy"><a href="https://github.com/aniloid2"><i class="fa fa-github"></i></a></li>
+                    <li class="google-scholar animated bounceIn wow delay-04s" style="visibility: visible; animation-name: bounceIn;" loading="lazy"> <a href="https://scholar.google.com/citations?user=iBPtOTQAAAAJ&hl=en" target="_blank"> <i class="fa fa-graduation-cap"></i> </a> </li> 
+                    <li class="file-text animated bounceIn wow delay-05s animated" style="visibility: visible; animation-name: bounceIn;" loading="lazy"><a href="static/Brian_Formento_CV.pdf" target="_blank" ><i class="fa fa-file-text"></i></a></li>
+                    <li class="envelope animated bounceIn wow delay-06s animated" style="visibility: visible; animation-name: bounceIn;" loading="lazy"><a href="mailto:brianformento@hotmail.com"><i class="fa fa-envelope"></i></a></li> 
                 </ul> 
             </div>
             <div class='separator'>
@@ -120,11 +121,14 @@ var THREE=THREE||{REVISION:"56"} -->
 
              <div class="proj">
                     <h1> Publications </h1>
-                    <p ><b>Brian Formento</b>,Wenjie Feng, Chuan Sheng Foo, Luu Anh Tuan, See-Kiong Ng, SemRoDe: Macro Adversarial Training to Learn Representations That are Robust to Word-Level Attacks, North American Chapter of the Association for Computational Linguistics (NAACL Main Track), Mexico City, 2024</p>
+                    <a  class="link" href="https://openreview.net/forum?id=aTYexOYlLb">
+                    <p ><b>Brian Formento</b>, Chuan Sheng Foo, See-Kiong Ng, Confidence Elicitation: A New Attack Vector for Large Language Models, International Conference on Learning Representations (ICLR, Poster), Singapore, 2025</p></a>
+                    <a  class="link" href="https://aclanthology.org/2024.naacl-long.443/">
+                    <p ><b>Brian Formento</b>,Wenjie Feng, Chuan Sheng Foo, Luu Anh Tuan, See-Kiong Ng, SemRoDe: Macro Adversarial Training to Learn Representations That are Robust to Word-Level Attacks, North American Chapter of the Association for Computational Linguistics (NAACL, Main Track, Oral), Mexico City, 2024</p></a>
                     <a  class="link" href="https://aclanthology.org/2023.findings-eacl.1/">
-                    <p ><b>Brian Formento</b>, Chuan Sheng Foo, Luu Anh Tuan, See-Kiong Ng, Using Punctuation as an Adversarial Attack on Deep Learning Based NLP Systems: An Empirical Study, European Chapter of the Association for Computational Linguistics (EACL Findings), Dubrovnik, Croatia, 2023</p></a>
+                    <p ><b>Brian Formento</b>, Chuan Sheng Foo, Luu Anh Tuan, See-Kiong Ng, Using Punctuation as an Adversarial Attack on Deep Learning Based NLP Systems: An Empirical Study, European Chapter of the Association for Computational Linguistics (EACL, Findings), Dubrovnik, Croatia, 2023</p></a>
                     <a  class="link" href="https://doi.org/10.1109/IJCNN52387.2021.9534254">
-                    <p ><b>Brian Formento</b>, See-Kiong Ng, Chuan Sheng Foo, Special symbol attacks on NLP, IEEE International Joint Conference on Neural Networks (IJCNN), Shenzen, China, 2021, (Oral)</p></a>
+                    <p ><b>Brian Formento</b>, See-Kiong Ng, Chuan Sheng Foo, Special symbol attacks on NLP, IEEE International Joint Conference on Neural Networks (IJCNN), Shenzen, China, 2021</p></a>
 
 
                    
@@ -135,7 +139,7 @@ var THREE=THREE||{REVISION:"56"} -->
                     <a class="link" href="https://github.com/vtennero/meta-aria-front">
                         <p><b>Aria and Personal Timeline Workshop at Meta Menlo Park 2023 (3 days)</b></p>
                         <p>We were flown in to participate and built an AR & AI-augmented fashion app.</p>
-                        <div style="text-align: center;"><img alt="Personal Timeline" src="static/img/personal_timeline_workshop.jpeg"  style="width: 50%; height: auto;" ></div>
+                        <div style="text-align: center;"><img alt="Personal Timeline" src="static/img/personal_timeline_workshop.jpeg"  style="width: 50%; height: auto;" loading="lazy" ></div>
                     </a>
                     <a class="link" href="https://github.com/Aniloid2/LLM_bio_hackathon">
                         <p><b>LLM Bio Hackathon 2023 (3 days)</b></p>
@@ -144,17 +148,17 @@ var THREE=THREE||{REVISION:"56"} -->
                             <img 
                                 alt="Team" 
                                 src="static/img/team.jpeg" 
-                                style="width: 33%; height: auto; margin: 5px;" 
+                                style="width: 33%; height: auto; margin: 5px; " loading="lazy" 
                             />
                             <img 
                                 alt="Presentation" 
                                 src="static/img/presentations.jpeg" 
-                                style="width: 33%; height: auto; margin: 5px;" 
+                                style="width: 33%; height: auto; margin: 5px;" loading="lazy"
                             />
                             <img 
                                 alt="Brian Formento" 
                                 src="static/img/yacht.jpeg" 
-                                style="width: 33%; height: auto; margin: 5px;" 
+                                style="width: 33%; height: auto; margin: 5px;" loading="lazy"
                             />
                         </div>
                     </a>
